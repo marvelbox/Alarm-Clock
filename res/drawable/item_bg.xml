@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android = "http://schemas.android.com/apk/res/android">
+<!-- 定义按钮按下时的图片 -->
+<item
+android:state_pressed = "true"
+android:drawable="@color/yellow"
+/>
+<!-- 定义按钮默认的图片 -->
+<item android:drawable="@color/white"/>
+</selector>

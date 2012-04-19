@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alarm</string>
+    <string name="app_title">Alarm Clock</string>
+	<string name="edit_time_title">Time</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/black" >
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_title" 
+            android:textColor="@color/white"
+            android:textSize="22sp" /> 
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_gravity="left"         
+            android:background="@drawable/navigation_back"/>              
+        <Button
+            android:id="@+id/new_button"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right"        
+            android:background="@drawable/content_new"/>
+    </FrameLayout>
+    <AnalogClock
+    	android:id="@+id/analogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_horizontal" />
+	<ListView
+	    android:id="@+id/alarmclock_listview"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:dividerHeight="4dp"
+	    android:divider="#00000000">
+	</ListView>
+</LinearLayout>

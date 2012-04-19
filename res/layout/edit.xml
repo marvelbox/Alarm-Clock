@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/black" >
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_title" 
+            android:textColor="@color/white"
+            android:textSize="22sp" /> 
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_gravity="left"         
+            android:background="@drawable/content_undo"/>              
+        <Button
+            android:id="@+id/new_button"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right"        
+            android:background="@drawable/content_new"/>
+    </FrameLayout>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/bg"
+	    android:gravity="center_horizontal"
+	    android:orientation="vertical" >
+	    <FrameLayout
+	        android:id="@+id/edit_time"
+	        android:layout_width="280dp"
+	        android:layout_height="48dp"
+	        android:layout_marginTop="40dp"
+	        android:background="@drawable/border" >
+	        <Button
+	            android:id="@+id/selectTime"
+	            android:layout_width="60dp"
+	            android:layout_height="36dp"
+	            android:layout_gravity="center_vertical"
+	            android:layout_marginLeft="6dp"
+	            android:background="@drawable/edit_button"
+	            android:text="@string/edit_time_title"
+	            android:textColor="@color/black"
+	            android:textSize="20sp" />
+	        <TextView
+	            android:id="@+id/showTime"
+	            android:layout_width="214dp"
+	            android:layout_height="fill_parent"
+	            android:layout_gravity="right"
+	            android:gravity="center"
+	            android:text="07:30"
+	            android:textColor="#505050"
+	            android:textSize="26sp" />
+	    </FrameLayout>
+	    <FrameLayout
+	        android:id="@+id/edit_date"
+	        android:layout_width="280dp"
+	        android:layout_height="48dp"
+	        android:layout_marginTop="8dp"
+	        android:background="@drawable/border" >
+	        <Button
+	            android:id="@+id/selectWeek"
+	            android:layout_width="60dp"
+	            android:layout_height="36dp"
+	            android:layout_gravity="center_vertical"
+	            android:layout_marginLeft="6dp"
+	            android:background="@drawable/edit_button"
+	            android:text="Week"
+	            android:textColor="#505050"
+	            android:textSize="20sp" />
+	        <TextView
+	            android:id="@+id/showDate"
+	            android:layout_width="214dp"
+	            android:layout_height="fill_parent"
+	            android:layout_gravity="right"
+	            android:gravity="center"
+	            android:text="Mon, Tues, Wed, Thurs, Fri"
+	            android:textColor="#505050"
+	            android:textSize="16sp" />
+	    </FrameLayout>	    
+	    <FrameLayout
+	        android:id="@+id/edit_ring"
+	        android:layout_width="280dp"
+	        android:layout_height="48dp"
+	        android:layout_marginTop="8dp"
+	        android:background="@drawable/border" >
+	        <Button
+	            android:layout_width="60dp"
+	            android:layout_height="36dp"
+	            android:layout_gravity="center_vertical"
+	            android:layout_marginLeft="6dp"
+	            android:background="@drawable/edit_button"
+	            android:text="Ring"
+	            android:textSize="20sp" />
+	        <TextView
+	            android:layout_width="214dp"
+	            android:layout_height="fill_parent"
+	            android:layout_gravity="right"
+	            android:gravity="center"
+	            android:text="Large Than Life"
+	            android:textColor="#505050"
+	            android:textSize="20sp" />
+	    </FrameLayout>
+	    <FrameLayout
+	        android:id="@+id/edit_photo"
+	        android:layout_width="280dp"
+	        android:layout_height="48dp"
+	        android:layout_marginTop="8dp"
+	        android:background="@drawable/border" >
+	        <Button
+	            android:layout_width="60dp"
+	            android:layout_height="36dp"
+	            android:layout_gravity="center_vertical"
+	            android:layout_marginLeft="6dp"
+	            android:background="@drawable/edit_button"
+	            android:text="Photo"
+	            android:textSize="20sp" />
+	        <TextView
+	            android:layout_width="214dp"
+	            android:layout_height="fill_parent"
+	            android:layout_gravity="right"
+	            android:gravity="center"
+	            android:text="Kevin Richardson"
+	            android:textColor="#505050"
+	            android:textSize="20sp" />
+	    </FrameLayout>
+	    <FrameLayout
+	        android:id="@+id/edit_title"
+	        android:layout_width="280dp"
+	        android:layout_height="48dp"
+	        android:layout_marginTop="8dp"
+	        android:background="@drawable/border" >
+
+	        <Button
+	            android:id="@+id/editTitle"
+	            android:layout_width="60dp"
+	            android:layout_height="36dp"
+	            android:layout_gravity="center_vertical"
+	            android:layout_marginLeft="6dp"
+	            android:background="@drawable/edit_button"
+	            android:text="Title"
+	            android:textSize="20sp" />
+	        <TextView
+	            android:id="@+id/showTitle"
+	            android:layout_width="214dp"
+	            android:layout_height="fill_parent"
+	            android:layout_gravity="right"
+	            android:gravity="center"
+	            android:text="Get Up"
+	            android:textColor="#505050"
+	            android:textSize="20sp" />
+	    </FrameLayout>
+	</LinearLayout>
+</LinearLayout>
